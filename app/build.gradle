@@ -41,7 +41,6 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                from components.release
                 groupId = "com.example.addlibrary"
                 artifactId = "AdderMethod"
                 version = 'v0.1.0'
